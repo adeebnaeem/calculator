@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="calclu">
+        <div class="calclu1">
+            <div class="calconta">
+                <h3>Calculator<i class="bi bi-calculator"></i></h3>
+                <input type="text" id="textBox">
+            </div>
+            <div class="buttons">
+                <div class="buttoninput">
+                    <input type="button" value="C" onclick="eraseAll()">
+                    <input type="button" value="Del" onclick="eraseOne()">
+                    <input type="button" value="/" onclick="insert('/')">
+                    <input type="button" value="x" onclick="insert('*')">
+                </div>
+                <div class="buttoninput">
+                    <input type="button" value="7" onclick="insert(7)">
+                    <input type="button" value="8" onclick="insert(8)">
+                    <input type="button" value="9" onclick="insert(9)">
+                    <input type="button" value="-" onclick="insert('-')">
+                </div>
+                <div class="buttoninput">
+                    <input type="button" value="4" onclick="insert(4)">
+                    <input type="button" value="5" onclick="insert(5)">
+                    <input type="button" value="6" onclick="insert(6)">
+                    <input type="button" value="+" onclick="insert('+')">
+                </div>
+                <div class="buttoninput">
+                    <input type="button" value="1" onclick="insert(1)">
+                    <input type="button" value="2" onclick="insert(2)">
+                    <input type="button" value="3" onclick="insert(3)">
+                    <input type="button" value="=" onclick="equal()">
+                </div>
+                <div class="buttoninput">
+                    <input type="button" value="0" onclick="insert()">
+                    <input type="button" value="." onclick="insert()">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./web.js"></script>
+</body>
+
+</html>

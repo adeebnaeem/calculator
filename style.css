@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box;
+}
+
+.calclu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calconta {
+    text-align: center;
+}
+
+.calclu1 {
+    width: 35%;
+    height: 95vh;
+    background-color: rgb(11, 81, 99);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.calclu1 h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.calclu1 input {
+    width: 55%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.buttoninput {
+    padding: 10px;
+}
+
+.buttoninput input {
+    width: 15%;
+    padding: 12px 0;
+    border-radius: 5px;
+    border: none;
+    margin: 0 3px;
+    background-color: rgb(91, 205, 250);
+    font-size: 22px !important;
+    color: white;
+}
